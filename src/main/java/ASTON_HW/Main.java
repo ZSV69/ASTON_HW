@@ -18,8 +18,7 @@ public class Main {
         fillingArr();
         changeArr2();
         squareArr();
-        System.out.println(arr(1,3));// не понимаю как вывести в консоль...(
-
+        System.out.println(Arrays.toString(arr(5,1)));
     }
     public static void printThreeWords() {
         System.out.println("Orange");
@@ -126,6 +125,7 @@ public class Main {
         int [] [] square = new int[5][5];
         for (int i = 0; i < 5; i++) {
             square[i] [i] = 1;
+            square [i][5 - i - 1] = 1;
         }
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
