@@ -9,8 +9,7 @@ public class Main {
         employees [2] = new Employee("Илья Федоров","Директор","fedorov@mail.ru", "4950000",80000,37);
         employees [3] = new Employee("Ирина Кит","Инженер","kit@mail.ru", "4955555",40000,35);
         employees [4] = new Employee("Елена Икс","Секретарь","iks@mail.ru", "4946551",23000,19);
-
-
+        Employee employee = new Employee("Иван","клоун","папавпва","655465431",1545,25);
 
     }
 }

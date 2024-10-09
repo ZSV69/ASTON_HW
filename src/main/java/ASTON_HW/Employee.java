@@ -17,8 +17,14 @@ public class Employee {
             this.age = age;
     }
 
-    public String printEmployeeInf() {
-        return "Информация о сотруднике: " + fullName + ", " + position + ", " + email + ", " + phone + ", " + salary + ", " + age;
+    public void printEmployeeInf() {
+        System.out.println("Информация о сотруднике:");
+        System.out.println("ФИО: "+fullName);
+        System.out.println("Должность: " + position);
+        System.out.println("Почта: " + email);
+        System.out.println("Телефон: " + phone);
+        System.out.println("Зарплата: " + salary);
+        System.out.println("Возраст: " + age);
     }
 
 
